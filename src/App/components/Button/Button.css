@@ -1,0 +1,18 @@
+.Button{
+    user-select: none;
+    border-radius: 7px;
+    padding:5px 15px;
+    margin:5px; 
+    display: inline-block;
+    box-shadow: 10px 10px 25px grey;
+    text-align: center;
+     /* background-color: aqua; */
+}
+.Button:hover{
+    /* box-shadow: 10px 10px 25px tomato; */
+
+}
+
+.clicked{
+    box-shadow: 10px 10px 10px grey;
+}

@@ -1,0 +1,66 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "img": "img1.jpg",
+      "text": {
+        "x": 0,
+        "y": 0,
+        "value": "DEMAT Breizh"
+      }
+    },
+    {
+      "id": 2
+    },
+    {
+      "img": "img1.jpg",
+      "text": {
+        "x": 0,
+        "y": 0,
+        "value": "DEMAT Breizh"
+      },
+      "id": 3
+    },
+    {
+      "img": "img1.jpg",
+      "text": {
+        "x": 0,
+        "y": 0,
+        "value": "DEMAT Breizh"
+      },
+      "id": 4
+    }
+  ],
+  "imgs": [
+    {
+      "id": 1,
+      "url": "img1.jpg",
+      "w": 512,
+      "h": 512
+    },
+    {
+      "id": 2,
+      "url": "img1.jpg",
+      "w": 512,
+      "h": 512
+    },
+    {
+      "id": 3,
+      "url": "img1.jpg",
+      "w": 512,
+      "h": 512
+    },
+    {
+      "id": 4,
+      "url": "img1.jpg",
+      "w": 512,
+      "h": 512
+    },
+    {
+      "id": 5,
+      "url": "img1.jpg",
+      "w": 512,
+      "h": 512
+    }
+  ]
+}
