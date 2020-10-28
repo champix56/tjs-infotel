@@ -10,9 +10,6 @@
       }
     },
     {
-      "id": 2
-    },
-    {
       "img": "img1.jpg",
       "text": {
         "x": 0,
@@ -34,33 +31,27 @@
   "imgs": [
     {
       "id": 1,
-      "url": "img1.jpg",
-      "w": 512,
-      "h": 512
+      "url": "fallout.jpg",
+      "w": 960,
+      "h": 540
     },
     {
       "id": 2,
-      "url": "img1.jpg",
-      "w": 512,
-      "h": 512
+      "url": "futurama.jpg",
+      "w": 600,
+      "h": 338
     },
     {
       "id": 3,
-      "url": "img1.jpg",
-      "w": 512,
-      "h": 512
-    },
-    {
-      "id": 4,
-      "url": "img1.jpg",
-      "w": 512,
-      "h": 512
+      "url": "new.jpg",
+      "w": 630,
+      "h": 420
     },
     {
       "id": 5,
-      "url": "img1.jpg",
-      "w": 512,
-      "h": 512
+      "url": "react.png",
+      "w": 1200,
+      "h": 630
     }
   ]
 }

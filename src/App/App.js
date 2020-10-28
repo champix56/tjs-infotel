@@ -12,10 +12,9 @@ import {Button as Button2} from 'react-bootstrap';
 import {a} from './config/config';*/
 const REST_SRV_ADR='http://localhost:5644';
 const initialState={meme: {
-    img: '',
-    text: { x: 0, y: 0, value: '' },
-  },
-  imgs:['img1.jpg','img2.jpg'],
+    imgId: 5,img:{id: 5,url: "react.png",w: 1200,h: 630},
+    text: { x: 20, y: 50, value: 'DEMAT BREIZH' },
+  }
 }
 class App extends React.Component {
   constructor(props) {
@@ -26,10 +25,6 @@ class App extends React.Component {
     fetch(REST_SRV_ADR+'/memes')
       .then(f=>f.json())
       .then(o=>this.setState({memes:o}))
-    
-    fetch(`${REST_SRV_ADR}/imgs`)
-      .then(f=>f.json())
-      .then(o=>this.setState({imgs:o}))
   }
   render() {
     return ( 
@@ -53,7 +48,9 @@ class App extends React.Component {
         <Nav />
         <MainView>
           <Viewer meme={this.state.meme} />
-          <Editor />
+          <Editor meme={this.state.meme} onChangeMeme={(meme)=>{
+            this.setState({meme:meme});
+          }} />
         </MainView>
         <Footer />
       </div>
