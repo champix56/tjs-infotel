@@ -1,0 +1,19 @@
+@media print {
+    .ThumbailLayout:before {
+        display: none;
+    }
+}
+.ThumbailLayout:before {
+    content: "Thumbnail";
+    display: block;
+    font-size: 10vh;
+}
+.ThumbailLayout {
+    padding-top: 50px;
+}
+.ThumbailLayout > * {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}

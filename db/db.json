@@ -2,7 +2,7 @@
   "memes": [
     {
       "id": 1,
-      "img": "img1.jpg",
+      "imgId": 1,
       "text": {
         "x": 0,
         "y": 0,
@@ -10,7 +10,7 @@
       }
     },
     {
-      "img": "img1.jpg",
+      "imgId":2,
       "text": {
         "x": 0,
         "y": 0,
@@ -19,7 +19,7 @@
       "id": 3
     },
     {
-      "img": "img1.jpg",
+      "imgId":3,
       "text": {
         "x": 0,
         "y": 0,
